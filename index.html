@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+<a-box position="2 0.5 1" rotation="0 45 0" color="#4CC3D9"></a-box>
+
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css" />
+        <script src="Componentes/aframe.js"></script>
+        <script src="Componentes/Oceano.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <script src="Componentes/Escenario.js"></script>
+            <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+            <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="8" height="8" color="#7BC8A4"></a-plane>
+            <a-ocean color="aqua" depth="100" width="100"></a-ocean>
+            <a-sky color="#FF3342" theta-length="90" radius="30"></a-sky>
+        </a-scene>
+    </body>
+</html>
